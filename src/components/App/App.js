@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import NewEmployee from '../NewEmployee/NewEmployee';
+import SupaClicka from '../SupaClicka/SupaClicka';
 
 class App extends React.Component {
   // constructor(props) {
@@ -39,6 +40,8 @@ class App extends React.Component {
           <NewEmployee />
           <NewEmployee />
           <NewEmployee />
+
+          <SupaClicka />
         </main>
       </div>
     );
