@@ -5,11 +5,9 @@ import './Header.css';
 class Header extends React.Component {
   render() {
     return (
-      <header>
-        <span>
-          <img className="logo" src={logo} alt="React Logo" />
-        </span>{' '}
-        WORDS
+      <header className="appBar">
+        <img className="logo" src={logo} alt="React Logo" />
+        <h1>React Local State</h1>
       </header>
     );
   }
